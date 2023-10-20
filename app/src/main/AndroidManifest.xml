@@ -13,6 +13,12 @@
         android:theme="@style/Theme.ChatApp"
         tools:targetApi="31">
         <activity
+            android:name=".chatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".setProfile"
+            android:exported="false" />
+        <activity
             android:name=".otpAuthentication"
             android:exported="false" />
         <activity
