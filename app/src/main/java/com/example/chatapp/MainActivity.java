@@ -18,13 +18,12 @@ import java.util.concurrent.TimeUnit;
 
 public class MainActivity extends AppCompatActivity {
 
+    String countryCode, phoneNumber, codeSent;
     EditText mGetPhoneNumber;
     android.widget.Button mSendOTP;
-    CountryCodePicker mCountyCodePicker;
-    String countryCode, phoneNumber, codeSent;
-    FirebaseAuth firebaseAuth;
     ProgressBar mProgressBarOfMain;
-
+    CountryCodePicker mCountyCodePicker;
+    FirebaseAuth firebaseAuth;
     PhoneAuthProvider.OnVerificationStateChangedCallbacks mCallbacks;
 
     @Override
